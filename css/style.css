@@ -1,0 +1,250 @@
+/** {
+	border: 1px blue dashed;
+}*/
+
+html, body {
+    width:100%;
+    height:100%;
+}
+
+body {
+	background: url(http://onioneyethemes.com/equilibrium/wp-content/themes/equilibrium/images/layout/scan-lines.png) repeat;
+	font-family: "Open Sans", sans-serif;
+	/*font-family: "Source Sans Pro", sans-serif;*/
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+	background-color: #383838;
+}
+.clear {
+	clear: both;
+}
+
+.container {
+	margin: 0 auto;
+
+}
+
+.slide {
+    background-attachment: fixed;
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+
+header {
+	padding: 0;
+	box-shadow: none;
+}
+
+a {
+	cursor: pointer;
+}
+
+.logoheader {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#logoheaderin {
+	width: 960px;
+	margin: 0 auto;
+}
+#basic{
+	width:340px;
+	height:264px;
+}
+
+#logo {
+	width: 180px;
+	height: auto;
+	margin: 30px 20px 20px 10px;
+	z-index: 0;
+	position: relative;
+}
+
+#logo2 {
+	display: block;
+	width: 180px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 10px;
+	transition: all .4s ease-in-out;
+}
+
+.fadelogo {
+	opacity: 0;
+   transition: opacity .4s ease-in-out;
+}
+
+#logo2:hover {
+	opacity: 0.5;
+} 
+
+#contact-top {
+	width: 950px;
+	font-size: 10px;
+	color: #fff;
+	float: top;
+	display: block;
+	position: relative;
+	font-weight: 200;
+	text-align: right;
+	margin: 0 auto;
+}
+
+#hrmargin {
+	margin-bottom: 60px;
+}
+
+#reel {
+	display: block;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 1}
+
+#slide1 {
+	width: 100%;
+	height: 100%;
+}
+
+#drb {
+	width: 640px;
+	margin: 0 auto 60px auto;	
+}
+
+h1 {
+	font-size: 72px;
+	font-weight: 200;
+}
+
+#portfolio {
+	width: 640px;
+	margin: 120px auto 120px auto;
+}
+
+h2 {
+	font-size: 16px;
+	font-weight: 200;
+}
+
+.restofsite {
+	background-color: #fff;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 200px;
+	z-index: -2;
+	position: relative;
+}
+
+div {
+	display: block;
+}
+
+nav {
+	height: 60px;
+	width: 100%;
+	position: relative;
+}
+
+nav ul {
+	margin: 0;
+}
+
+li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+li a:hover {
+	opacity: 0.8;
+}
+
+.navbarout {
+	background: url(http://onioneyethemes.com/equilibrium/wp-content/themes/equilibrium/images/layout/scan-lines.png) repeat;
+	background-position: -45px 0;
+	width: 100%;
+	height: 120px;
+	display: block;
+	background-color: #383838;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 9999;
+    box-shadow:0 2px 2px rgba(0,0,0,0.1);
+    position: absolute;
+    bottom: 0px;
+}
+
+#navbarin {
+	width: 960px;
+	display: block;
+	height: 120px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navitems {
+	color: #fff;
+	float: right;
+	text-transform: uppercase;
+	display: block;
+	margin: 50px 20px 50px 20px;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+}
+
+#about {
+	width: 640px;
+	margin: 120px auto 60px auto;
+}
+
+#resume {
+	width: 640px;
+	margin: 120px auto 60px auto;
+}
+
+#profpic {
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	border-radius: 250px;
+	-webkit-border-radius:250px;
+	-moz-border-radius:250px;
+	background:url(http://users.design.ucla.edu/~sterz/files/aboutpic2.png) no-repeat;
+	background-size: contain;
+}
+
+.fixed {
+	position: fixed;
+	top:0;
+}
+
+hr {
+    clear: both;
+    display: block;
+    margin: 0 0 45px;
+    padding: 0;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.thumbnails {
+	width: 340px;
+	height: 204px;
+}
+
+p {
+	font-size: 16px;
+}
+
+#explain1 {
+	font-size: 16px;
+	color: #6DC6B9;
+}
+
+#portfoliotext {
+	/*text-align: center;*/
+}
