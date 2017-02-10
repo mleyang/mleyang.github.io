@@ -8,13 +8,13 @@ html, body {
 }
 
 body {
-	background: url(http://onioneyethemes.com/equilibrium/wp-content/themes/equilibrium/images/layout/scan-lines.png) repeat;
+	/*background: url(http://onioneyethemes.com/equilibrium/wp-content/themes/equilibrium/images/layout/scan-lines.png) repeat;*/
 	font-family: "Open Sans", sans-serif;
 	/*font-family: "Source Sans Pro", sans-serif;*/
 	font-weight: 300;
 	margin: 0;
 	padding: 0;
-	background-color: #383838;
+	background-color: #d3d3d3;
 }
 .clear {
 	clear: both;
@@ -22,6 +22,7 @@ body {
 
 .container {
 	margin: 0 auto;
+	height: 99%;
 
 }
 
@@ -33,8 +34,8 @@ body {
 }
 
 header {
-	padding: 0;
 	box-shadow: none;
+	height: 50%;
 }
 
 a {
@@ -47,7 +48,7 @@ a {
 }
 
 #logoheaderin {
-	width: 960px;
+	width: 100%;
 	margin: 0 auto;
 }
 #basic{
@@ -82,12 +83,12 @@ a {
 } 
 
 #contact-top {
-	width: 950px;
+	width: 98%;
 	font-size: 10px;
-	color: #fff;
+	color: #000;
 	float: top;
 	display: block;
-	position: relative;
+	position: absolute;
 	font-weight: 200;
 	text-align: right;
 	margin: 0 auto;
@@ -153,22 +154,28 @@ nav ul {
 	margin: 0;
 }
 
+ul {
+	list-style: none;
+	padding: 0;
+
+}
+
 li a {
-	color: #fff;
+	color: #000;
 	text-decoration: none;
 }
 
 li a:hover {
-	opacity: 0.8;
+	opacity: 0.5;
 }
 
 .navbarout {
-	background: url(http://onioneyethemes.com/equilibrium/wp-content/themes/equilibrium/images/layout/scan-lines.png) repeat;
-	background-position: -45px 0;
+	/*background: url(http://onioneyethemes.com/equilibrium/wp-content/themes/equilibrium/images/layout/scan-lines.png) repeat;
+	background-position: -45px 0;*/
 	width: 100%;
 	height: 120px;
 	display: block;
-	background-color: #383838;
+	background-color: #d3d3d3;
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 9999;
@@ -248,3 +255,33 @@ p {
 #portfoliotext {
 	/*text-align: center;*/
 }
+
+.hover11 figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover11 figure:hover img {
+	opacity: .5;
+}
+
+.project-list {
+    position: left;
+    margin: 10px;
+}
+
+.projectThumb {
+    position: relative;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.col--xs--6 {
+    width: 50%;
+    float:left;
+}
+
+figure {
+	margin: 10px 20px;
+}
+

@@ -13,8 +13,14 @@ $(function() {
                 //window.location.hash = id.substring(1);
                 //return false;
 
-        $('#slide1').css('height', $(window).height());
+        $('#slide1').css('height', $(window).height()/5);
               
+        $('.linkfox').click(function() {
+		$('#vrproj').scrollTo(160); });
+        $('.linkwebgl').click(function() {
+		$('#webgl').scrollTo(160); });
+		$('.linkreel').click(function() {
+		$('#demo').scrollTo(160); });
         $('.linklogo').click(function() {
 		$('#slide1').scrollTo(0); });
         $('.linkresume').click(function() {
