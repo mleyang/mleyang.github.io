@@ -56,6 +56,10 @@ a {
 	height:264px;
 }
 
+.basic{
+	margin-left: 80px;
+}
+
 #logo {
 	width: 180px;
 	height: auto;
@@ -122,8 +126,9 @@ h1 {
 
 #portfolio {
 	width: 640px;
-	margin: 120px auto 120px auto;
+	text-align: center;
 }
+
 
 h2 {
 	font-size: 16px;
