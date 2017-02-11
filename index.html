@@ -43,6 +43,27 @@
 	</script>
 
 
+	<!--cycle frames script-->
+	<script type="text/javascript">
+
+    	$(document).ready(function(){
+    		var counter = 1;
+    		setInterval(function(){
+    			var src = 'spacefox_TT/';
+    			$('#animationshit').attr('src' , src+counter+'.jpg');
+    			counter++;
+    			if(counter > 49 ){
+    				counter = 1
+    			}
+
+    		}, 50);
+    		
+    	});
+
+
+    </script>
+
+
 </head>
 
 <body>
@@ -143,6 +164,8 @@
 			<div id="portfolio">
 				<font size="2"><strong>CHARACTER TURNTABLE</strong></font>
 				<br> 
+				<img id="animationshit" src="spacefox_TT/1.jpg" width="500px" height="auto">
+				<!--
 				<font size="1"><strong>scrub thumbnail to turn model</strong></font>
 				<div class="basic">
 				<img  src="spacefox_TT/turntable_v002.0001.jpg" width="500px" height="auto" align="middle">
@@ -170,7 +193,8 @@
 				<img  src="spacefox_TT/turntable_v002.0045.jpg" width="500px" height="auto" align="middle">
 				<img  src="spacefox_TT/turntable_v002.0047.jpg" width="500px" height="auto" align="middle">
 				<img  src="spacefox_TT/turntable_v002.0049.jpg" width="500px" height="auto" align="middle">
-				</div>
+				</div>-->
+
 			</div>
 			<br>
 			<br>
