@@ -271,6 +271,7 @@ p {
     position: relative;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
 }
 
 .col--xs--6 {
