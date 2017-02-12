@@ -15,6 +15,8 @@ $(function() {
 
         $('#slide1').css('height', $(window).height()/5);
               
+		$('.linkSNS').click(function() {
+		$('#SNS').scrollTo(160); });
         $('.linkfox').click(function() {
 		$('#vrproj').scrollTo(160); });
         $('.linkwebgl').click(function() {
@@ -22,7 +24,7 @@ $(function() {
 		$('.linkreel').click(function() {
 		$('#demo').scrollTo(160); });
         $('.linklogo').click(function() {
-		$('#slide1').scrollTo(0); });
+		$('#slide1').scrollTo(10); });
         $('.linkresume').click(function() {
 		$('#resume').scrollTo(160); });
 		$('.linkabout').click(function() {
